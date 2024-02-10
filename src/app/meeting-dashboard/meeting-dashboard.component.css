@@ -1,0 +1,23 @@
+.comp {
+    background-color: #fdfdfd;
+}
+
+h2 {
+    font-family: Baskerville;
+    color: #544c44;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(/src/assets/Inter-VariableFont_slnt\,wght.ttf);
+  }
+  
+  @font-face {
+    font-family: "Baskerville";
+    src: url(/src/assets/Baskervville-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Baskerville-Italic";
+    src: url(/src/assets/Baskervville-Italic.ttf);
+  }

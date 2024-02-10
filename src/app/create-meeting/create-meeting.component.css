@@ -1,0 +1,34 @@
+.comp {
+    background-color: #fdfdfd;
+}
+
+h2 {
+    font-family: Baskerville;
+    color: #544c44;
+}
+
+button {
+    background-color: #544c44;
+    color: #fdfdfd;
+    font-family: Inter;
+}
+
+button:hover {
+    background-color: #beab9d;
+    color: #544c44;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(/src/assets/Inter-VariableFont_slnt\,wght.ttf);
+  }
+  
+  @font-face {
+    font-family: "Baskerville";
+    src: url(/src/assets/Baskervville-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Baskerville-Italic";
+    src: url(/src/assets/Baskervville-Italic.ttf);
+  }

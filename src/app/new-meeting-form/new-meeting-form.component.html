@@ -1,0 +1,56 @@
+<div class="m-3 p-3">
+<div mat-dialog-title class="justify-content-center">
+    <h1>CREATE NEW MEETING</h1>
+</div>
+<div mat-dialog-content class="container">
+        <mat-form-field appearance="fill" class="pt-2">
+          <mat-label>Meeting Name</mat-label>
+          <input required matInput placeholder="Client A | Intro Mtg">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Meeting Location</mat-label>
+          <input required matInput placeholder="Henna Solutions Office">
+        </mat-form-field>
+
+        <mat-form-field appreance="fill">
+            <mat-label>Meeting Date</mat-label>
+            <input required matInput [matDatepicker]="picker">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Meeting Time</mat-label>
+            <mat-select matNativeControl required>
+              <mat-option *ngFor = "let val of meetingTime" [value]="val">{{val}}</mat-option>
+            </mat-select >
+            <mat-hint>Pacific Time (PT)</mat-hint>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Client Name</mat-label>
+          <input required matInput placeholder="Client A">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Internal Attendees</mat-label>
+          <input required matInput placeholder="Jane Smith">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>External Attendees</mat-label>
+          <input required matInput placeholder="John Doe">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Meeting Notes</mat-label>
+            <input required matInput placeholder="Prospective client. Based in CA.">
+          </mat-form-field>
+</div>
+
+<div mat-dialog-actions class="d-flex flex-wrap justify-content-center">
+    <button class="btn btn-sm mx-2" type="submit">Submit</button>
+</div>
+</div>

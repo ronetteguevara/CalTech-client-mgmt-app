@@ -13,16 +13,24 @@
   src: url(../assets/Baskervville-Italic.ttf);
 }
 
-header {
+html {
+  height: 100vh;
+}
+
+.mat-toolbar {
   background-color: #544c44;
   color: #fdfdfd;
   font-family: Inter;
 }
 
+button {
+  padding: 0 12px 0 12px;
+}
+
 .hero {
-  background-image: url(../assets/Hero12.png);
+  background-image: url(../assets/Hero13.png);
   object-fit: cover;
-  height: 25vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,19 +39,14 @@ header {
 h1 {
   font-family: Baskerville;
   letter-spacing: 5pt;
-  text-shadow: 2px 2px 5px #D7B18B;
+  text-shadow: 2px 2px 10px #D7B18B;
   color: #544c44;
 }
 
 .content {
-  background-color: #e9e8e6;}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
+  background-color: #e9e8e6;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .footer-container {
@@ -53,6 +56,19 @@ h1 {
   align-items: center;
   background-color: #544c44;
   font-family: Inter;
+}
+
+button {
+  color: #E9E8E6;
+  font-family: Inter;
+  background-color: transparent;
+  border: 0;
+  font-size: medium;
+}
+
+button:hover {
+  color: #BEAB9D;
+  background-color: transparent;
 }
 
 a:link {
@@ -82,3 +98,8 @@ a:active {
 .no-margin {
   margin: 0%;
 }
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+

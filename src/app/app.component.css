@@ -17,14 +17,13 @@ html {
   height: 100vh;
 }
 
-.mat-toolbar {
-  background-color: #544c44;
-  color: #fdfdfd;
-  font-family: Inter;
-}
-
 button {
   padding: 0 12px 0 12px;
+}
+
+.mat-toolbar {
+  width: 100%;
+  background-color: #544c44;
 }
 
 .hero {

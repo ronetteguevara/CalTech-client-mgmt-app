@@ -1,6 +1,10 @@
-<div class="rounded-4 shadow comp pb-5 pt-2">
-    <div class="px-5 pt-4">
-      <h2 class="fw-bold">mode. Clients</h2>
+    <div class="container pt-5 px-5">
+        <div class="float-start col-xl-6 col-lg-6 col-md-6 col-sm-5 col-5">
+        <h2 class="fw-bold"><span style="font-family: Inter;">mode.</span> Clients</h2>
+        </div>
+        <div class="pb-3 text-end col-xl-6 col-lg-6 col-md-6 col-sm-8 col-7">
+        <button (click)="createNewClient()" class="btn">+ New Client</button>
+        </div>
     </div>
     <div class="px-5">
         <div class="table-responsive small">
@@ -14,7 +18,6 @@
                   <th scope="col">Primary Contact Name</th>
                   <th scope="col">Primary Contact Number</th>
                   <th scope="col">Primary Contact Email</th>
-                  <th scope="col">Client Contacts</th>
                   <th scope="col">Projects</th>
                   <th scope="col">Client Notes</th>
                 </tr>
@@ -27,7 +30,7 @@
                   <td>Santa Clara, CA</td>
                   <td>John Smith</td>
                   <td>(415) 123-4567</td>
-                  <td>jsmith&#564;clienta.com</td>
+                  <td>jsmith&#64;clienta.com</td>
                   <td>None</td>
                   <td>John is our primary contact and is eager to establish our partnership.</td>
                 </tr>
@@ -38,7 +41,7 @@
                     <td>Tiburon, CA</td>
                     <td>Suzanne Chua</td>
                     <td>(415) 003-9067</td>
-                    <td>schua&#564;clientb.com</td>
+                    <td>schua&#64;clientb.com</td>
                     <td>Project Blue, Project Jade, and Project Pearl</td>
                     <td>Long-standing client since 2005. Suzanne has been our primary contact since 2011.</td>
                 </tr>
@@ -49,7 +52,7 @@
                     <td>Milpitas, CA</td>
                     <td>Mark Jones</td>
                     <td>(415) 536-3167</td>
-                    <td>mjones&#564;clientc.com</td>
+                    <td>mjones&#64;clientc.com</td>
                     <td>None</td>
                     <td>We have been in contact with Mark since 2019 and is now interested in establishing a partnership with us.</td>
                 </tr>
@@ -60,7 +63,7 @@
                     <td>Los Angeles, CA</td>
                     <td>Leila Marys</td>
                     <td>(650) 123-4227</td>
-                    <td>leila&#564;clientd.com</td>
+                    <td>leila&#64;clientd.com</td>
                     <td>Project Red</td>
                     <td>Official client since January 2024. Leila is our primary contact.</td>
                 </tr>
@@ -71,7 +74,7 @@
                     <td>Napa, CA</td>
                     <td>Deepak Narang</td>
                     <td>(415) 003-4207</td>
-                    <td>dnarang&#564;cliente.com</td>
+                    <td>dnarang&#64;cliente.com</td>
                     <td>Project Gold</td>
                     <td>Long-standing client since 2010. Recently </td>
                 </tr>
@@ -82,7 +85,7 @@
                     <td>Tiburon, CA</td>
                     <td>Suzanne Chua</td>
                     <td>(415) 123-4567</td>
-                    <td>schua&#564;clientb.com</td>
+                    <td>schua&#64;clientb.com</td>
                     <td>Project Blue, Project Jade, and Project Pearl</td>
                     <td>Long-standing client since 2005. Suzanne has been our primary contact since 2011.</td>
                 </tr>
@@ -93,45 +96,16 @@
                     <td>Antioch, CA</td>
                     <td>Hayley Drew</td>
                     <td>(415) 993-2167</td>
-                    <td>hayleydrew&#564;clientg.com</td>
+                    <td>hayleydrew&#64;clientg.com</td>
                     <td>Project Teal</td>
                     <td>Low-tier client - limited needs</td>
                 </tr>
-                <tr>
-                    <td>008</td>
-                    <td>Client H</td>
-                    <td>Existing Client</td>
-                    <td>Danville, CA</td>
-                    <td>George Santos</td>
-                    <td>(415) 233-4087</td>
-                    <td>george&#564;clienth.com</td>
-                    <td>Project Magenta</td>
-                    <td>Long-standing client since 2001. George is the business owner and would like to work on more properties in the future.</td>
-                </tr>
-                <tr>
-                    <td>009</td>
-                    <td>Client I</td>
-                    <td>Prospective Client</td>
-                    <td>San Francisco, CA</td>
-                    <td>Aya Henley</td>
-                    <td>(415) 108-4127</td>
-                    <td>ahenley&#564;clienti.com</td>
-                    <td>None</td>
-                    <td>Prospective client. Personally connected with Jane Doe.</td>
-                </tr>
-                <tr>
-                    <td>010</td>
-                    <td>Client J</td>
-                    <td>Prospective Client</td>
-                    <td>San Francisco, CA</td>
-                    <td>Jim Crow</td>
-                    <td>(415) 103-4134</td>
-                    <td>jcrow&#564;clientb.com</td>
-                    <td>None</td>
-                    <td>Prospective client from cold outreach referred by Jake Rowe.</td>
-                </tr>
               </tbody>
             </table>
+            <div class="button-container pb-4">
+              <div mat-dialog-actions class="d-flex flex-wrap col-6 justify-content-center">
+                  <button aria-label="close dialog" mat-dialog-close class="btn btn-sm mx-2">Cancel</button>
+              </div>
+          </div>
     </div>
   </div>
- 

@@ -1,0 +1,56 @@
+<div class="m-3 p-3">
+    <div mat-dialog-title class="justify-content-center">
+        <h1>CREATE NEW CLIENT</h1>
+    </div>
+    <div mat-dialog-content class="container">
+            <mat-form-field appearance="fill" class="pt-2">
+              <mat-label>Client Name</mat-label>
+              <input required matInput placeholder="Client A">
+            </mat-form-field>
+    
+            <mat-form-field appearance="fill">
+              <mat-label>Client Type</mat-label>
+              <input required matInput placeholder="Existing/Prospective">
+            </mat-form-field>
+            
+            <mat-form-field appearance="fill">
+              <mat-label>HQ Location</mat-label>
+              <input required matInput placeholder="San Francisco, CA">
+            </mat-form-field>
+    
+            <mat-form-field appearance="fill">
+              <mat-label>Primary Contact Name</mat-label>
+              <input required matInput placeholder="John Smith">
+            </mat-form-field>
+    
+            <mat-form-field appearance="fill">
+              <mat-label>Primary Contact Number</mat-label>
+              <input required matInput placeholder="(415) 123-4567">
+            </mat-form-field>
+    
+            <mat-form-field appearance="fill">
+                <mat-label>Primary Contact Email</mat-label>
+                <input required matInput placeholder="jsmith@clienta.com">
+              </mat-form-field>
+
+            <mat-form-field appearance="fill">
+                <mat-label>Projects</mat-label>
+                <input required matInput placeholder="Project Blue, Project Pearl">
+            </mat-form-field>
+  
+  
+            <mat-form-field appearance="fill">
+                <mat-label>Client Notes</mat-label>
+                <input required matInput placeholder="Prospective client. Based in San Francisco, CA.">
+              </mat-form-field>
+    </div>
+    <div class="button-container">
+        <div mat-dialog-actions class="d-flex flex-wrap justify-content-center col-6">
+            <button aria-label="close dialog" mat-dialog-close class="btn btn-sm mx-2">Cancel</button>
+          </div>
+          <div mat-dialog-actions class="d-flex flex-wrap justify-content-center col-6">
+            <button class="btn btn-sm mx-2" type="submit">Submit</button>
+        </div>
+    </div>
+</div>
+    

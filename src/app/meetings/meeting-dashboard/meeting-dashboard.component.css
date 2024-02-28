@@ -8,6 +8,28 @@ h2 {
     color: #544c44;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button {
+  color: #E9E8E6;
+  font-family: Inter;
+  background-color: #544c44;
+  width: 35%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: small;
+}
+
+button:hover {
+  color: #544c44;
+  background-color: #BEAB9D;
+}
+
 @font-face {
     font-family: "Inter";
     src: url(/src/assets/Inter-VariableFont_slnt\,wght.ttf);

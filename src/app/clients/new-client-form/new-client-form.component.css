@@ -50,7 +50,7 @@ mat-form-field {
     align-items: flex-start;
  }
 
- button {
+button {
     color: #E9E8E6;
     font-family: Inter;
     background-color: #544c44;
@@ -59,9 +59,15 @@ mat-form-field {
     padding-bottom: 5px;
     font-size: medium;
   }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
   
   button:hover {
     color: #544c44;
     background-color: #BEAB9D;
   }
-

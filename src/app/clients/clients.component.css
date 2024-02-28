@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Inter";
+    src: url(/src/assets/Inter-VariableFont_slnt\,wght.ttf);}
+  
+  @font-face {
+    font-family: "Baskerville";
+    src: url(/src/assets/Baskervville-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Baskerville-Italic";
+    src: url(/src/assets/Baskervville-Italic.ttf);
+  }
+  
+  html {
+    height: 100vh;
+  }
+
+  h2 {
+    font-family: Baskerville;
+    color: #544C44;
+  }
+
+  th, td {
+    font-family: Inter;
+    color: #544C44;
+  }
+  
+  .content {
+    background-color: #e9e8e6;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #544c44;
+    font-family: Inter;
+  }
+  
+  button {
+    color: #E9E8E6;
+    font-family: Inter;
+    background-color: #544c44;
+    width: 35%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: small;
+  }
+
+  button:hover {
+    color: #544c44;
+    background-color: #BEAB9D;
+  }
+
+  a:link {
+    color: #fdfdfd;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #BEAB9D;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #BEAB9D;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #BEAB9D;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .no-margin {
+    margin: 0%;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

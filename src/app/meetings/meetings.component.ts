@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { NewMeetingFormComponent } from './new-meeting-form/new-meeting-form.component';
 
 @Component({
   selector: 'app-meetings',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './meetings.component.css'
 })
 export class MeetingsComponent {
+  constructor(private _dialog: MatDialog) {}
+
+createNewMeeting() {
+  this._dialog.open(NewMeetingFormComponent);
+}
 
 }
